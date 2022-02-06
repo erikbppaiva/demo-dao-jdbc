@@ -55,8 +55,8 @@ public Seller(Integer id, String name, String email, Date birthDate, Double base
 		return birthDate;
 	}
 
-	public void setBirthDate(Date birthDate) {
-		this.birthDate = birthDate;
+	public void setBirthDate(Date date) {
+		this.birthDate = date;
 	}
 
 	public Double getBaseSalary() {
